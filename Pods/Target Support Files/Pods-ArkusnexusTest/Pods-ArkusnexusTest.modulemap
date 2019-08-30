@@ -1,0 +1,6 @@
+framework module Pods_ArkusnexusTest {
+  umbrella header "Pods-ArkusnexusTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

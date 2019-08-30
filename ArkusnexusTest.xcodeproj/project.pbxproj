@@ -3,17 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E888261304F37C0D8908BB3 /* Pods_ArkusnexusTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F8FD3FC5C04457169D2BDF2 /* Pods_ArkusnexusTestTests.framework */; };
+		C0BDA79862D444A271A439C5 /* Pods_ArkusnexusTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5AA7CC76FE9CC921C1B64C /* Pods_ArkusnexusTest.framework */; };
 		DB614FE72316280900EB1B71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB614FE62316280900EB1B71 /* AppDelegate.swift */; };
-		DB614FE92316280900EB1B71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB614FE82316280900EB1B71 /* ViewController.swift */; };
 		DB614FEC2316280900EB1B71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB614FEA2316280900EB1B71 /* Main.storyboard */; };
 		DB614FEE2316280D00EB1B71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB614FED2316280D00EB1B71 /* Assets.xcassets */; };
 		DB614FF12316280D00EB1B71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB614FEF2316280D00EB1B71 /* LaunchScreen.storyboard */; };
 		DB614FFC2316280D00EB1B71 /* ArkusnexusTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB614FFB2316280D00EB1B71 /* ArkusnexusTestTests.swift */; };
 		DB6150072316280D00EB1B71 /* ArkusnexusTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6150062316280D00EB1B71 /* ArkusnexusTestUITests.swift */; };
+		DB61501C23162CAF00EB1B71 /* PlacesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61501B23162CAF00EB1B71 /* PlacesListTableViewController.swift */; };
+		DB61502023162FF200EB1B71 /* PlacesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61501F23162FF200EB1B71 /* PlacesHandler.swift */; };
+		DB615022231708B000EB1B71 /* PlaceDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB615021231708B000EB1B71 /* PlaceDetailTableViewController.swift */; };
+		DB615027231761BB00EB1B71 /* PlaceItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB615025231761BB00EB1B71 /* PlaceItemTableViewCell.swift */; };
+		DB615028231761BB00EB1B71 /* PlaceItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB615026231761BB00EB1B71 /* PlaceItemTableViewCell.xib */; };
+		DB61502A231777C300EB1B71 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB615029231777C300EB1B71 /* Extensions.swift */; };
+		DB61502C2318A92F00EB1B71 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61502B2318A92F00EB1B71 /* User.swift */; };
+		EF591C417C9D74E5CA5A6507 /* Pods_ArkusnexusTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE60B56652A8CC8770810AB /* Pods_ArkusnexusTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		303196696F43CDE05DA91519 /* Pods-ArkusnexusTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusnexusTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArkusnexusTestUITests/Pods-ArkusnexusTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		382654B56A75DE5F3063563A /* Pods-ArkusnexusTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusnexusTestUITests.release.xcconfig"; path = "Target Support Files/Pods-ArkusnexusTestUITests/Pods-ArkusnexusTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3F8FD3FC5C04457169D2BDF2 /* Pods_ArkusnexusTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkusnexusTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5AA7CC76FE9CC921C1B64C /* Pods_ArkusnexusTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkusnexusTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE35A84C62ABDB9B51020B2D /* Pods-ArkusnexusTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusnexusTestTests.debug.xcconfig"; path = "Target Support Files/Pods-ArkusnexusTestTests/Pods-ArkusnexusTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D11253995833B8D910D25AC7 /* Pods-ArkusnexusTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusnexusTest.debug.xcconfig"; path = "Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest.debug.xcconfig"; sourceTree = "<group>"; };
 		DB614FE32316280900EB1B71 /* ArkusnexusTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArkusnexusTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB614FE62316280900EB1B71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB614FE82316280900EB1B71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB614FEB2316280900EB1B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB614FED2316280D00EB1B71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB614FF02316280D00EB1B71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,16 @@
 		DB6150022316280D00EB1B71 /* ArkusnexusTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArkusnexusTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6150062316280D00EB1B71 /* ArkusnexusTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkusnexusTestUITests.swift; sourceTree = "<group>"; };
 		DB6150082316280D00EB1B71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB61501B23162CAF00EB1B71 /* PlacesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListTableViewController.swift; sourceTree = "<group>"; };
+		DB61501F23162FF200EB1B71 /* PlacesHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesHandler.swift; sourceTree = "<group>"; };
+		DB615021231708B000EB1B71 /* PlaceDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailTableViewController.swift; sourceTree = "<group>"; };
+		DB615025231761BB00EB1B71 /* PlaceItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceItemTableViewCell.swift; sourceTree = "<group>"; };
+		DB615026231761BB00EB1B71 /* PlaceItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaceItemTableViewCell.xib; sourceTree = "<group>"; };
+		DB615029231777C300EB1B71 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DB61502B2318A92F00EB1B71 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F6D09B0269D379ACFB942AA1 /* Pods-ArkusnexusTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusnexusTestTests.release.xcconfig"; path = "Target Support Files/Pods-ArkusnexusTestTests/Pods-ArkusnexusTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F99741CFF342F1A5CC8075C6 /* Pods-ArkusnexusTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArkusnexusTest.release.xcconfig"; path = "Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest.release.xcconfig"; sourceTree = "<group>"; };
+		FCE60B56652A8CC8770810AB /* Pods_ArkusnexusTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArkusnexusTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BDA79862D444A271A439C5 /* Pods_ArkusnexusTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E888261304F37C0D8908BB3 /* Pods_ArkusnexusTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF591C417C9D74E5CA5A6507 /* Pods_ArkusnexusTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A956D34CCA72CFF3B8CB9CDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5AA7CC76FE9CC921C1B64C /* Pods_ArkusnexusTest.framework */,
+				3F8FD3FC5C04457169D2BDF2 /* Pods_ArkusnexusTestTests.framework */,
+				FCE60B56652A8CC8770810AB /* Pods_ArkusnexusTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B99218D49B9B38158DB689C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D11253995833B8D910D25AC7 /* Pods-ArkusnexusTest.debug.xcconfig */,
+				F99741CFF342F1A5CC8075C6 /* Pods-ArkusnexusTest.release.xcconfig */,
+				BE35A84C62ABDB9B51020B2D /* Pods-ArkusnexusTestTests.debug.xcconfig */,
+				F6D09B0269D379ACFB942AA1 /* Pods-ArkusnexusTestTests.release.xcconfig */,
+				303196696F43CDE05DA91519 /* Pods-ArkusnexusTestUITests.debug.xcconfig */,
+				382654B56A75DE5F3063563A /* Pods-ArkusnexusTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB614FDA2316280900EB1B71 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +131,8 @@
 				DB614FFA2316280D00EB1B71 /* ArkusnexusTestTests */,
 				DB6150052316280D00EB1B71 /* ArkusnexusTestUITests */,
 				DB614FE42316280900EB1B71 /* Products */,
+				B99218D49B9B38158DB689C1 /* Pods */,
+				A956D34CCA72CFF3B8CB9CDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +149,12 @@
 		DB614FE52316280900EB1B71 /* ArkusnexusTest */ = {
 			isa = PBXGroup;
 			children = (
+				DB61501823162B8000EB1B71 /* Storyboards */,
+				DB61501723162B6D00EB1B71 /* Utils */,
+				DB61501623162B4C00EB1B71 /* TableViewCells */,
+				DB61501523162B4400EB1B71 /* Controllers */,
+				DB61501423162B3B00EB1B71 /* Models */,
 				DB614FE62316280900EB1B71 /* AppDelegate.swift */,
-				DB614FE82316280900EB1B71 /* ViewController.swift */,
-				DB614FEA2316280900EB1B71 /* Main.storyboard */,
-				DB614FED2316280D00EB1B71 /* Assets.xcassets */,
-				DB614FEF2316280D00EB1B71 /* LaunchScreen.storyboard */,
 				DB614FF22316280D00EB1B71 /* Info.plist */,
 			);
 			path = ArkusnexusTest;
@@ -125,6 +178,67 @@
 			path = ArkusnexusTestUITests;
 			sourceTree = "<group>";
 		};
+		DB61501423162B3B00EB1B71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB61501F23162FF200EB1B71 /* PlacesHandler.swift */,
+				DB61502B2318A92F00EB1B71 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB61501523162B4400EB1B71 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB61501B23162CAF00EB1B71 /* PlacesListTableViewController.swift */,
+				DB615021231708B000EB1B71 /* PlaceDetailTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB61501623162B4C00EB1B71 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				DB615025231761BB00EB1B71 /* PlaceItemTableViewCell.swift */,
+				DB615026231761BB00EB1B71 /* PlaceItemTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		DB61501723162B6D00EB1B71 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DB61501A23162BB300EB1B71 /* Extensions */,
+				DB61501923162BAC00EB1B71 /* Assets */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DB61501823162B8000EB1B71 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DB614FEA2316280900EB1B71 /* Main.storyboard */,
+				DB614FEF2316280D00EB1B71 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DB61501923162BAC00EB1B71 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DB614FED2316280D00EB1B71 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DB61501A23162BB300EB1B71 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DB615029231777C300EB1B71 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB61500B2316280D00EB1B71 /* Build configuration list for PBXNativeTarget "ArkusnexusTest" */;
 			buildPhases = (
+				9DA566D0BF29F4AD765B629C /* [CP] Check Pods Manifest.lock */,
 				DB614FDF2316280900EB1B71 /* Sources */,
 				DB614FE02316280900EB1B71 /* Frameworks */,
 				DB614FE12316280900EB1B71 /* Resources */,
+				B82F1A6FDCEF92AFAF862C97 /* [CP] Copy Pods Resources */,
+				D1626704359340B8FB98FF14 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB61500E2316280D00EB1B71 /* Build configuration list for PBXNativeTarget "ArkusnexusTestTests" */;
 			buildPhases = (
+				CEE4779EC6F5308F97C43481 /* [CP] Check Pods Manifest.lock */,
 				DB614FF32316280D00EB1B71 /* Sources */,
 				DB614FF42316280D00EB1B71 /* Frameworks */,
 				DB614FF52316280D00EB1B71 /* Resources */,
@@ -167,6 +285,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB6150112316280D00EB1B71 /* Build configuration list for PBXNativeTarget "ArkusnexusTestUITests" */;
 			buildPhases = (
+				2F0DC4DA6F69E24664FEDF94 /* [CP] Check Pods Manifest.lock */,
 				DB614FFE2316280D00EB1B71 /* Sources */,
 				DB614FFF2316280D00EB1B71 /* Frameworks */,
 				DB6150002316280D00EB1B71 /* Resources */,
@@ -193,6 +312,11 @@
 				TargetAttributes = {
 					DB614FE22316280900EB1B71 = {
 						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					DB614FF62316280D00EB1B71 = {
 						CreatedOnToolsVersion = 10.3;
@@ -231,6 +355,7 @@
 			files = (
 				DB614FF12316280D00EB1B71 /* LaunchScreen.storyboard in Resources */,
 				DB614FEE2316280D00EB1B71 /* Assets.xcassets in Resources */,
+				DB615028231761BB00EB1B71 /* PlaceItemTableViewCell.xib in Resources */,
 				DB614FEC2316280900EB1B71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +376,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F0DC4DA6F69E24664FEDF94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkusnexusTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DA566D0BF29F4AD765B629C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkusnexusTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82F1A6FDCEF92AFAF862C97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE4779EC6F5308F97C43481 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArkusnexusTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1626704359340B8FB98FF14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArkusnexusTest/Pods-ArkusnexusTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB614FDF2316280900EB1B71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB614FE92316280900EB1B71 /* ViewController.swift in Sources */,
+				DB615027231761BB00EB1B71 /* PlaceItemTableViewCell.swift in Sources */,
+				DB61502023162FF200EB1B71 /* PlacesHandler.swift in Sources */,
+				DB615022231708B000EB1B71 /* PlaceDetailTableViewController.swift in Sources */,
+				DB61502C2318A92F00EB1B71 /* User.swift in Sources */,
+				DB61502A231777C300EB1B71 /* Extensions.swift in Sources */,
 				DB614FE72316280900EB1B71 /* AppDelegate.swift in Sources */,
+				DB61501C23162CAF00EB1B71 /* PlacesListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +663,7 @@
 		};
 		DB61500C2316280D00EB1B71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11253995833B8D910D25AC7 /* Pods-ArkusnexusTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +682,7 @@
 		};
 		DB61500D2316280D00EB1B71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99741CFF342F1A5CC8075C6 /* Pods-ArkusnexusTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +701,7 @@
 		};
 		DB61500F2316280D00EB1B71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE35A84C62ABDB9B51020B2D /* Pods-ArkusnexusTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +722,7 @@
 		};
 		DB6150102316280D00EB1B71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D09B0269D379ACFB942AA1 /* Pods-ArkusnexusTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +743,7 @@
 		};
 		DB6150122316280D00EB1B71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303196696F43CDE05DA91519 /* Pods-ArkusnexusTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +763,7 @@
 		};
 		DB6150132316280D00EB1B71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 382654B56A75DE5F3063563A /* Pods-ArkusnexusTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
