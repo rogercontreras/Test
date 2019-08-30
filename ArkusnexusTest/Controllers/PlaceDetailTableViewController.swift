@@ -58,6 +58,10 @@ class PlaceDetailTableViewController: UITableViewController {
         self.phoneLabel.text = currentPlace.phoneNumber
         self.websiteLabel.text = currentPlace.site.absoluteString
         
+        if let distance = currentPlace.distance {
+            self.distanceLabel.text = String(format: "%.1f km", distance/1000)
+        }
+        
         self.calculateETA { (eta) in
             self.driveTimeLabel.text = eta
         }
